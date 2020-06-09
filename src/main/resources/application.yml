@@ -1,0 +1,35 @@
+server:
+  port: ${appPort:8000}
+
+# Spring MVC dispatcher servlet path.
+server.servlet-path: /
+# Jersey dispatcher servlet
+spring.jersey.application-path: /api
+
+# OpenBank API client credentials
+com:
+  openbank:
+    apiclient:
+      user: admin
+      password: pass
+
+# OpenBank API EndPoint
+openbank.api.endpoint: https://apisandbox.openbankproject.com/obp/v1.2.1/banks/{bankId}/accounts/{accountId}/public/transactions
+
+# http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready-endpoints
+# http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#howto-use-actuator-with-jersey
+endpoints:
+  enabled: true
+  info:
+    enabled: true
+  health:
+    enabled: true
+  metrics:
+    enabled: true
+
+# app name and build version updated during build process from Maven properties.
+info:
+  app:
+    name: @project.artifactId@
+  build:
+    version: @project.version@
