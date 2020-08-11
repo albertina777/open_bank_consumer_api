@@ -1,7 +1,7 @@
 # README #
 ### Tech Stack ###
 
-* Java 8
+* Java 9
 * Maven 
 * Spring Boot (Swagger, Jersey Included)
 * RestAssured (For Test Cases)
