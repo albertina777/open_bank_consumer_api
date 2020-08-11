@@ -14,4 +14,5 @@ mvn spring-boot:run
 
 Open http://localhost:8000/ in a browser
 
+Credentials can be taken from here
 Credentials can be fetched for authentication from application.yml file
