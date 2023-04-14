@@ -31,7 +31,7 @@
         <!-- Dependencies -->
         <tomcat.version>8.0.35</tomcat.version>
         <swagger.version>1.5.8</swagger.version>
-        <json.version>20160810</json.version>
+        <json.version>20230227</json.version>
         <lombok.version>1.18.6</lombok.version>
         <!-- Test Dependencies -->
         <rest-assured.version>2.9.0</rest-assured.version>
